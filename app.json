@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "yefepereapp",
+    "slug": "yefepereapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "testing",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yefepereapp.app",
+      "config":{
+        "googleSignIn":{
+          "reservedClientId":"com.googleusercontent.apps.768015130946-gth1f56ff6a4o2nasa0s0fu6v806bt0l"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yefepereapp.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Yefepere is Nigeria’s largest on-demand online cake shop, with services reaching every local government area and packages delivered within 5-6 hours from the time of order."
+  }
+}
